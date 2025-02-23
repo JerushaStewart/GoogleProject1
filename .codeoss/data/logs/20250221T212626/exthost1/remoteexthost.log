@@ -1,0 +1,27 @@
+2025-02-21 21:26:31.316 [info] Extension host with pid 1230 started
+2025-02-21 21:26:31.329 [info] Lock '/home/jerushastewa2022/.codeoss/data/User/workspaceStorage/-1baf962c/vscode.lock': Lock acquired.
+2025-02-21 21:26:31.406 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-21 21:26:31.492 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-21 21:26:31.504 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2025-02-21 21:26:31.850 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-21 21:26:31.851 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-21 21:26:32.037 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-21 21:26:32.098 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt,**/build.gradle,**/Dockerfile,**/Containerfile'
+2025-02-21 21:26:32.547 [info] Eager extensions activated
+2025-02-21 21:26:32.547 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 21:26:32.548 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 21:26:32.548 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-02-21 21:26:32.549 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 21:26:32.549 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 21:26:33.965 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 21:26:36.263 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-21 21:26:36.266 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-21 21:26:36.267 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-21 21:26:36.969 [warning] [Decorations] CAPPING events from decorations provider vscode.git 928
+2025-02-21 21:26:37.229 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-21 21:26:37.453 [warning] [Decorations] CAPPING events from decorations provider vscode.git 929
+2025-02-21 21:26:40.841 [warning] [Decorations] CAPPING events from decorations provider vscode.git 936
+2025-02-21 21:26:45.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 936

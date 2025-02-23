@@ -20,3 +20,4 @@
 2025-01-29 21:39:59.239 [info] [127.0.0.1][43345971][ExtensionHostConnection] <2909> Launched Extension Host Process.
 2025-01-29 21:43:44.914 [info] [127.0.0.1][27ce0213][ExtensionHostConnection] <1230> Extension Host Process exited with code: 0, signal: null.
 2025-01-29 21:44:59.427 [info] [127.0.0.1][578399b9][ExtensionHostConnection] <2099> Extension Host Process exited with code: 0, signal: null.
+2025-01-29 23:15:36.128 [info] [127.0.0.1][77c854bb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

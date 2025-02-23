@@ -1,0 +1,85 @@
+2025-01-30 05:09:02.117 [info] [main] Log level: Info
+2025-01-30 05:09:02.117 [info] [main] Validating found git in: "git"
+2025-01-30 05:09:02.117 [info] [main] Using git "2.43.0" from "git"
+2025-01-30 05:09:02.117 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 05:09:02.117 [info] > git rev-parse --show-toplevel [350ms]
+2025-01-30 05:09:02.117 [info] > git rev-parse --git-dir --git-common-dir [196ms]
+2025-01-30 05:09:02.117 [info] [Model][openRepository] Opened repository: /home/jerushastewa2022
+2025-01-30 05:09:02.117 [info] > git config --get commit.template [4ms]
+2025-01-30 05:09:02.130 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:09:02.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [73ms]
+2025-01-30 05:09:02.201 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:09:02.289 [info] > git status -z -uall [82ms]
+2025-01-30 05:09:02.290 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [75ms]
+2025-01-30 05:09:02.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [515ms]
+2025-01-30 05:09:02.938 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:09:02.940 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-01-30 05:09:02.941 [info] > git rev-parse --show-toplevel [698ms]
+2025-01-30 05:09:06.199 [info] > git config --get commit.template [3289ms]
+2025-01-30 05:09:06.213 [info] > git check-ignore -v -z --stdin [3239ms]
+2025-01-30 05:09:06.217 [info] > git rev-parse --show-toplevel [3233ms]
+2025-01-30 05:09:06.242 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:09:06.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2025-01-30 05:09:06.268 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:09:06.558 [info] > git rev-parse --show-toplevel [307ms]
+2025-01-30 05:09:06.581 [info] > git status -z -uall [304ms]
+2025-01-30 05:09:06.603 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [305ms]
+2025-01-30 05:09:06.688 [info] > git rev-parse --show-toplevel [110ms]
+2025-01-30 05:09:07.500 [info] > git rev-parse --show-toplevel [714ms]
+2025-01-30 05:09:07.576 [info] > git rev-parse --show-toplevel [63ms]
+2025-01-30 05:09:07.750 [info] > git rev-parse --show-toplevel [160ms]
+2025-01-30 05:09:07.784 [info] > git rev-parse --show-toplevel [19ms]
+2025-01-30 05:09:07.961 [info] > git rev-parse --show-toplevel [162ms]
+2025-01-30 05:09:07.962 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 05:09:08.075 [info] > git show --textconv HEAD:main.py [85ms]
+2025-01-30 05:09:08.076 [info] > git show --textconv :main.py [63ms]
+2025-01-30 05:09:08.077 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [34ms]
+2025-01-30 05:09:08.077 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:09:08.093 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [32ms]
+2025-01-30 05:09:08.169 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [51ms]
+2025-01-30 05:09:08.184 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [24ms]
+2025-01-30 05:09:08.189 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:09:15.334 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [7098ms]
+2025-01-30 05:09:15.371 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [29ms]
+2025-01-30 05:09:19.686 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [107ms]
+2025-01-30 05:09:19.703 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [137ms]
+2025-01-30 05:09:19.703 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:09:19.704 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [162ms]
+2025-01-30 05:09:19.704 [info] fatal: bad revision 'refs/heads/main'
+2025-01-30 05:09:19.705 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-01-30 05:09:19.732 [info] > git config --get commit.template [50ms]
+2025-01-30 05:09:19.746 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [44ms]
+2025-01-30 05:09:19.805 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:09:19.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [55ms]
+2025-01-30 05:09:19.844 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:09:19.974 [info] > git status -z -uall [84ms]
+2025-01-30 05:09:19.983 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2025-01-30 05:09:20.452 [info] > git check-ignore -v -z --stdin [331ms]
+2025-01-30 05:09:25.106 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:09:25.108 [info] > git config --get commit.template [17ms]
+2025-01-30 05:09:25.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:09:25.109 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:09:25.158 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-01-30 05:09:25.160 [info] > git status -z -uall [37ms]
+2025-01-30 05:09:26.143 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [17ms]
+2025-01-30 05:09:26.143 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:09:26.144 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [4ms]
+2025-01-30 05:09:26.159 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [2ms]
+2025-01-30 05:09:31.792 [info] > git show --textconv :.git/COMMIT_EDITMSG [16ms]
+2025-01-30 05:09:31.793 [info] > git ls-files --stage -- /home/jerushastewa2022/.git/COMMIT_EDITMSG [3ms]
+2025-01-30 05:09:32.049 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-30 05:09:32.496 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [15ms]
+2025-01-30 05:09:32.509 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [42ms]
+2025-01-30 05:09:32.509 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:09:32.511 [info] > git ls-files --stage -- /home/jerushastewa2022/.git/COMMIT_EDITMSG [17ms]
+2025-01-30 05:09:32.512 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [3ms]
+2025-01-30 05:09:32.600 [info] > git show --textconv HEAD:main.py [33ms]
+2025-01-30 05:09:32.600 [info] > git show --textconv :.git/COMMIT_EDITMSG [19ms]
+2025-01-30 05:09:32.600 [info] > git show --textconv :main.py [1ms]
+2025-01-30 05:22:06.501 [info] > git ls-files --stage -- /home/jerushastewa2022/.git/COMMIT_EDITMSG [3ms]
+2025-01-30 05:22:06.559 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]

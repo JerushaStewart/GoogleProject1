@@ -1,0 +1,70 @@
+2025-01-30 05:03:17.044 [info] [main] Log level: Info
+2025-01-30 05:03:17.044 [info] [main] Validating found git in: "git"
+2025-01-30 05:03:17.044 [info] [main] Using git "2.43.0" from "git"
+2025-01-30 05:03:17.044 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 05:03:17.045 [info] > git rev-parse --show-toplevel [27ms]
+2025-01-30 05:03:17.048 [info] > git rev-parse --git-dir --git-common-dir [39ms]
+2025-01-30 05:03:17.068 [info] [Model][openRepository] Opened repository: /home/jerushastewa2022
+2025-01-30 05:03:17.147 [info] > git config --get commit.template [67ms]
+2025-01-30 05:03:17.159 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:03:20.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3568ms]
+2025-01-30 05:03:20.727 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:03:20.789 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+2025-01-30 05:03:20.790 [info] > git rev-parse --show-toplevel [3608ms]
+2025-01-30 05:03:21.182 [info] > git status -z -uall [445ms]
+2025-01-30 05:03:21.182 [info] > git check-ignore -v -z --stdin [403ms]
+2025-01-30 05:03:21.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [305ms]
+2025-01-30 05:03:21.531 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:03:21.532 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-01-30 05:03:21.533 [info] > git rev-parse --show-toplevel [636ms]
+2025-01-30 05:03:22.027 [info] > git config --get commit.template [533ms]
+2025-01-30 05:03:22.060 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [47ms]
+2025-01-30 05:03:22.061 [info] fatal: bad revision 'refs/heads/main'
+2025-01-30 05:03:22.065 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-01-30 05:03:22.066 [info] > git rev-parse --show-toplevel [109ms]
+2025-01-30 05:03:22.190 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:03:22.352 [info] > git rev-parse --show-toplevel [104ms]
+2025-01-30 05:03:22.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [182ms]
+2025-01-30 05:03:22.372 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:03:22.878 [info] > git status -z -uall [452ms]
+2025-01-30 05:03:22.880 [info] > git rev-parse --show-toplevel [357ms]
+2025-01-30 05:03:22.925 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [434ms]
+2025-01-30 05:03:23.714 [info] > git rev-parse --show-toplevel [413ms]
+2025-01-30 05:03:23.731 [info] > git check-ignore -v -z --stdin [24ms]
+2025-01-30 05:03:23.860 [info] > git rev-parse --show-toplevel [132ms]
+2025-01-30 05:03:23.893 [info] > git rev-parse --show-toplevel [21ms]
+2025-01-30 05:03:24.004 [info] > git rev-parse --show-toplevel [53ms]
+2025-01-30 05:03:24.005 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 05:03:24.044 [info] > git show --textconv :Procfile [27ms]
+2025-01-30 05:03:24.054 [info] > git ls-files --stage -- /home/jerushastewa2022/Procfile [16ms]
+2025-01-30 05:03:31.786 [info] > git check-ignore -v -z --stdin [51ms]
+2025-01-30 05:03:31.787 [info] > git show --textconv :.git/COMMIT_EDITMSG [29ms]
+2025-01-30 05:03:31.791 [info] > git ls-files --stage -- /home/jerushastewa2022/.git/COMMIT_EDITMSG [24ms]
+2025-01-30 05:05:50.352 [info] > git show --textconv :Procfile [9ms]
+2025-01-30 05:05:50.354 [info] > git ls-files --stage -- /home/jerushastewa2022/Procfile [4ms]
+2025-01-30 05:05:50.669 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-30 05:05:53.176 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-30 05:06:02.218 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-01-30 05:06:02.218 [info] fatal: bad revision 'refs/heads/main'
+2025-01-30 05:06:02.219 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-01-30 05:06:12.536 [info] > git show --textconv HEAD:main.py [37ms]
+2025-01-30 05:06:12.537 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [3ms]
+2025-01-30 05:06:12.548 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [31ms]
+2025-01-30 05:06:12.548 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:06:12.604 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [56ms]
+2025-01-30 05:06:12.605 [info] > git show --textconv :main.py [97ms]
+2025-01-30 05:06:13.001 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-30 05:07:00.859 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [10ms]
+2025-01-30 05:07:00.859 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:07:00.862 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [6ms]
+2025-01-30 05:07:00.871 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [2ms]

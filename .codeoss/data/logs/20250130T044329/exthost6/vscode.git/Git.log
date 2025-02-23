@@ -1,0 +1,309 @@
+2025-01-30 05:53:19.994 [info] [main] Log level: Info
+2025-01-30 05:53:19.994 [info] [main] Validating found git in: "git"
+2025-01-30 05:53:19.994 [info] [main] Using git "2.43.0" from "git"
+2025-01-30 05:53:19.994 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 05:53:19.994 [info] > git rev-parse --show-toplevel [125ms]
+2025-01-30 05:53:19.994 [info] > git rev-parse --git-dir --git-common-dir [32ms]
+2025-01-30 05:53:19.994 [info] [Model][openRepository] Opened repository: /home/jerushastewa2022
+2025-01-30 05:53:19.998 [info] > git config --get commit.template [21ms]
+2025-01-30 05:53:20.044 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:53:23.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3903ms]
+2025-01-30 05:53:23.947 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:53:24.267 [info] > git status -z -uall [300ms]
+2025-01-30 05:53:24.268 [info] > git rev-parse --show-toplevel [261ms]
+2025-01-30 05:53:24.277 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [294ms]
+2025-01-30 05:53:24.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [241ms]
+2025-01-30 05:53:24.560 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:53:24.561 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-01-30 05:53:24.839 [info] > git check-ignore -v -z --stdin [270ms]
+2025-01-30 05:53:24.855 [info] > git config --get commit.template [295ms]
+2025-01-30 05:53:24.856 [info] > git rev-parse --show-toplevel [305ms]
+2025-01-30 05:53:24.884 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [55ms]
+2025-01-30 05:53:24.884 [info] fatal: bad revision 'refs/heads/main'
+2025-01-30 05:53:24.885 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-01-30 05:53:24.949 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:53:24.974 [info] > git rev-parse --show-toplevel [94ms]
+2025-01-30 05:53:25.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [111ms]
+2025-01-30 05:53:25.067 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:53:25.148 [info] > git rev-parse --show-toplevel [94ms]
+2025-01-30 05:53:25.353 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [261ms]
+2025-01-30 05:53:25.389 [info] > git status -z -uall [306ms]
+2025-01-30 05:53:25.457 [info] > git rev-parse --show-toplevel [105ms]
+2025-01-30 05:53:26.009 [info] > git rev-parse --show-toplevel [540ms]
+2025-01-30 05:53:26.056 [info] > git check-ignore -v -z --stdin [33ms]
+2025-01-30 05:53:26.063 [info] > git rev-parse --show-toplevel [10ms]
+2025-01-30 05:53:26.103 [info] > git rev-parse --show-toplevel [29ms]
+2025-01-30 05:53:26.216 [info] > git rev-parse --show-toplevel [41ms]
+2025-01-30 05:53:26.224 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 05:53:26.330 [info] > git show --textconv HEAD:main.py [75ms]
+2025-01-30 05:53:26.330 [info] > git show --textconv :main.py [57ms]
+2025-01-30 05:53:26.332 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [38ms]
+2025-01-30 05:53:26.332 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:53:26.344 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [33ms]
+2025-01-30 05:53:26.620 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [255ms]
+2025-01-30 05:53:26.644 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [25ms]
+2025-01-30 05:53:26.644 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:53:35.294 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [8576ms]
+2025-01-30 05:53:35.310 [info] > git config --get commit.template [34ms]
+2025-01-30 05:53:35.335 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [33ms]
+2025-01-30 05:53:35.351 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:53:35.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-01-30 05:53:35.363 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:53:35.398 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-30 05:53:35.446 [info] > git status -z -uall [72ms]
+2025-01-30 05:53:40.630 [info] > git config --get commit.template [63ms]
+2025-01-30 05:53:40.655 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:53:40.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-01-30 05:53:40.661 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:53:40.742 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-01-30 05:53:40.747 [info] > git status -z -uall [64ms]
+2025-01-30 05:54:04.510 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [21ms]
+2025-01-30 05:54:04.528 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [55ms]
+2025-01-30 05:54:04.528 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:54:04.530 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [3ms]
+2025-01-30 05:54:04.530 [info] > git config --get commit.template [22ms]
+2025-01-30 05:54:04.531 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:54:04.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:54:04.549 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:54:04.604 [info] > git status -z -uall [40ms]
+2025-01-30 05:54:04.633 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [33ms]
+2025-01-30 05:54:09.686 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:54:09.687 [info] > git config --get commit.template [18ms]
+2025-01-30 05:54:09.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:54:09.689 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:54:09.732 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:54:09.734 [info] > git status -z -uall [29ms]
+2025-01-30 05:56:09.210 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-30 05:56:11.702 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-30 05:56:17.226 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [13ms]
+2025-01-30 05:56:17.236 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [32ms]
+2025-01-30 05:56:17.236 [info] fatal: Not a valid object name HEAD
+2025-01-30 05:56:17.238 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [4ms]
+2025-01-30 05:56:17.240 [info] > git config --get commit.template [15ms]
+2025-01-30 05:56:17.249 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:56:17.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-30 05:56:17.254 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:56:17.281 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:56:17.293 [info] > git status -z -uall [30ms]
+2025-01-30 05:56:26.810 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [70ms]
+2025-01-30 05:56:26.822 [info] > git config --get commit.template [3ms]
+2025-01-30 05:56:26.835 [info] > git config --get commit.template [3ms]
+2025-01-30 05:56:26.844 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:56:26.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:56:26.872 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:56:26.876 [info] > git status -z -uall [20ms]
+2025-01-30 05:56:27.800 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-30 05:56:28.443 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [10ms]
+2025-01-30 05:56:28.445 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [3ms]
+2025-01-30 05:56:28.455 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [2ms]
+2025-01-30 05:56:28.493 [info] > git show --textconv HEAD:main.py [3ms]
+2025-01-30 05:56:28.507 [info] > git show --textconv :main.py [2ms]
+2025-01-30 05:56:56.679 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [4ms]
+2025-01-30 05:56:56.689 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [23ms]
+2025-01-30 05:56:56.691 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [2ms]
+2025-01-30 05:57:01.181 [info] > git remote add GoogleProject1 https://github.com/JerushaStewart/GoogleProject1.git [7ms]
+2025-01-30 05:57:01.200 [info] > git config --get commit.template [9ms]
+2025-01-30 05:57:01.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:57:01.233 [info] > git status -z -uall [23ms]
+2025-01-30 05:57:01.233 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-01-30 05:57:01.578 [info] > git fetch GoogleProject1 [303ms]
+2025-01-30 05:57:01.578 [info] From https://github.com/JerushaStewart/GoogleProject1
+ * [new branch]      main       -> GoogleProject1/main
+2025-01-30 05:57:01.599 [info] > git config --get commit.template [11ms]
+2025-01-30 05:57:01.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:57:01.631 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-30 05:57:01.637 [info] > git status -z -uall [25ms]
+2025-01-30 05:57:01.871 [info] > git config --get commit.template [9ms]
+2025-01-30 05:57:01.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:57:01.895 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:57:01.900 [info] > git status -z -uall [20ms]
+2025-01-30 05:57:01.934 [info] > git config --get commit.template [10ms]
+2025-01-30 05:57:01.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:57:01.960 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:57:01.966 [info] > git status -z -uall [23ms]
+2025-01-30 05:57:03.015 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [10ms]
+2025-01-30 05:57:03.017 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [3ms]
+2025-01-30 05:57:03.026 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [2ms]
+2025-01-30 05:57:03.080 [info] > git show --textconv HEAD:main.py [11ms]
+2025-01-30 05:57:03.082 [info] > git show --textconv :main.py [3ms]
+2025-01-30 05:57:10.493 [info] > git fetch [207ms]
+2025-01-30 05:57:10.514 [info] > git config --get commit.template [10ms]
+2025-01-30 05:57:10.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-30 05:57:10.540 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:57:10.546 [info] > git status -z -uall [22ms]
+2025-01-30 05:57:11.944 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [10ms]
+2025-01-30 05:57:11.946 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [4ms]
+2025-01-30 05:57:11.958 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [4ms]
+2025-01-30 05:57:12.009 [info] > git show --textconv HEAD:main.py [11ms]
+2025-01-30 05:57:12.011 [info] > git show --textconv :main.py [4ms]
+2025-01-30 05:57:25.056 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [11ms]
+2025-01-30 05:57:25.058 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [4ms]
+2025-01-30 05:57:25.068 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [3ms]
+2025-01-30 05:57:34.920 [info] > git push [3ms]
+2025-01-30 05:57:34.921 [info] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream GoogleProject1 main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2025-01-30 05:57:34.940 [info] > git config --get commit.template [10ms]
+2025-01-30 05:57:34.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-30 05:57:34.970 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:57:34.973 [info] > git status -z -uall [20ms]
+2025-01-30 05:57:42.849 [info] > git push -u GoogleProject1 main [488ms]
+2025-01-30 05:57:42.850 [info] To https://github.com/JerushaStewart/GoogleProject1.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/JerushaStewart/GoogleProject1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2025-01-30 05:57:42.872 [info] > git config --get commit.template [10ms]
+2025-01-30 05:57:42.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:57:42.902 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-30 05:57:42.904 [info] > git status -z -uall [22ms]
+2025-01-30 05:57:43.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [125ms]
+2025-01-30 05:57:43.138 [info] > git config --get commit.template [134ms]
+2025-01-30 05:57:43.165 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-30 05:57:43.171 [info] > git status -z -uall [24ms]
+2025-01-30 05:57:59.627 [info] > git log --oneline --cherry main...main@{upstream} -- [5ms]
+2025-01-30 05:57:59.627 [info] fatal: no upstream configured for branch 'main'
+2025-01-30 05:57:59.806 [info] > git pull --tags [170ms]
+2025-01-30 05:57:59.806 [info] There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=GoogleProject1/<branch> main
+2025-01-30 05:57:59.824 [info] > git config --get commit.template [9ms]
+2025-01-30 05:57:59.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:57:59.850 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:57:59.853 [info] > git status -z -uall [19ms]
+2025-01-30 05:58:01.247 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [10ms]
+2025-01-30 05:58:01.248 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [3ms]
+2025-01-30 05:58:01.258 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [3ms]
+2025-01-30 05:58:01.315 [info] > git show --textconv HEAD:main.py [13ms]
+2025-01-30 05:58:01.315 [info] > git show --textconv :main.py [3ms]
+2025-01-30 05:58:09.958 [info] > git log --oneline --cherry main...main@{upstream} -- [4ms]
+2025-01-30 05:58:09.958 [info] fatal: no upstream configured for branch 'main'
+2025-01-30 05:58:10.177 [info] > git pull --tags [211ms]
+2025-01-30 05:58:10.177 [info] There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=GoogleProject1/<branch> main
+2025-01-30 05:58:10.197 [info] > git config --get commit.template [10ms]
+2025-01-30 05:58:10.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:58:10.226 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-30 05:58:10.236 [info] > git status -z -uall [29ms]
+2025-01-30 05:58:10.471 [info] > git config --get commit.template [15ms]
+2025-01-30 05:58:10.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-30 05:58:10.497 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-30 05:58:10.499 [info] > git status -z -uall [20ms]
+2025-01-30 05:58:11.655 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [10ms]
+2025-01-30 05:58:11.656 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [2ms]
+2025-01-30 05:58:11.665 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [2ms]
+2025-01-30 05:58:11.713 [info] > git show --textconv HEAD:main.py [10ms]
+2025-01-30 05:58:11.716 [info] > git show --textconv :main.py [4ms]
+2025-01-30 05:58:18.404 [info] > git config --get commit.template [10ms]
+2025-01-30 05:58:18.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:58:18.430 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:58:18.433 [info] > git status -z -uall [20ms]
+2025-01-30 05:58:22.344 [info] > git log --oneline --cherry main...main@{upstream} -- [2ms]
+2025-01-30 05:58:22.344 [info] fatal: no upstream configured for branch 'main'
+2025-01-30 05:58:22.525 [info] > git pull --tags [173ms]
+2025-01-30 05:58:22.525 [info] There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=GoogleProject1/<branch> main
+2025-01-30 05:58:22.545 [info] > git config --get commit.template [10ms]
+2025-01-30 05:58:22.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:58:22.573 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:58:22.577 [info] > git status -z -uall [21ms]
+2025-01-30 05:58:23.472 [info] > git config --get commit.template [9ms]
+2025-01-30 05:58:23.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:58:23.498 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:58:23.501 [info] > git status -z -uall [19ms]
+2025-01-30 05:58:23.998 [info] > git ls-tree -l HEAD -- /home/jerushastewa2022/main.py [10ms]
+2025-01-30 05:58:24.000 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [3ms]
+2025-01-30 05:58:24.011 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [2ms]
+2025-01-30 05:58:24.071 [info] > git show --textconv HEAD:main.py [12ms]
+2025-01-30 05:58:24.073 [info] > git show --textconv :main.py [3ms]
+2025-01-30 05:58:28.538 [info] > git config --get commit.template [11ms]
+2025-01-30 05:58:28.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:58:28.565 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:58:28.568 [info] > git status -z -uall [20ms]
+2025-01-30 05:58:33.605 [info] > git config --get commit.template [9ms]
+2025-01-30 05:58:33.606 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:58:33.632 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:58:33.635 [info] > git status -z -uall [21ms]
+2025-01-30 05:58:38.669 [info] > git config --get commit.template [10ms]
+2025-01-30 05:58:38.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:58:38.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:58:38.699 [info] > git status -z -uall [20ms]
+2025-01-30 05:58:43.732 [info] > git config --get commit.template [10ms]
+2025-01-30 05:58:43.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:58:43.760 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:58:43.762 [info] > git status -z -uall [19ms]
+2025-01-30 05:58:48.794 [info] > git config --get commit.template [11ms]
+2025-01-30 05:58:48.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-30 05:58:48.822 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:58:48.824 [info] > git status -z -uall [20ms]
+2025-01-30 05:58:53.859 [info] > git config --get commit.template [9ms]
+2025-01-30 05:58:53.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:58:53.885 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:58:53.888 [info] > git status -z -uall [19ms]
+2025-01-30 05:58:58.928 [info] > git config --get commit.template [10ms]
+2025-01-30 05:58:58.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:58:58.956 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:58:58.958 [info] > git status -z -uall [20ms]
+2025-01-30 05:59:03.992 [info] > git config --get commit.template [9ms]
+2025-01-30 05:59:03.993 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:59:04.018 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:59:04.022 [info] > git status -z -uall [20ms]
+2025-01-30 05:59:09.054 [info] > git config --get commit.template [10ms]
+2025-01-30 05:59:09.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:59:09.079 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:59:09.083 [info] > git status -z -uall [19ms]
+2025-01-30 05:59:14.115 [info] > git config --get commit.template [10ms]
+2025-01-30 05:59:14.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:59:14.149 [info] > git status -z -uall [24ms]
+2025-01-30 05:59:14.150 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-30 05:59:19.182 [info] > git config --get commit.template [10ms]
+2025-01-30 05:59:19.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:59:19.208 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:59:19.211 [info] > git status -z -uall [20ms]
+2025-01-30 05:59:24.246 [info] > git config --get commit.template [10ms]
+2025-01-30 05:59:24.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:59:24.274 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:59:24.277 [info] > git status -z -uall [21ms]
+2025-01-30 05:59:29.311 [info] > git config --get commit.template [9ms]
+2025-01-30 05:59:29.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:59:29.335 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:59:29.338 [info] > git status -z -uall [18ms]
+2025-01-30 05:59:34.371 [info] > git config --get commit.template [10ms]
+2025-01-30 05:59:34.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-30 05:59:34.403 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-01-30 05:59:34.405 [info] > git status -z -uall [24ms]
+2025-01-30 05:59:39.437 [info] > git config --get commit.template [10ms]
+2025-01-30 05:59:39.439 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:59:39.464 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-30 05:59:39.467 [info] > git status -z -uall [20ms]

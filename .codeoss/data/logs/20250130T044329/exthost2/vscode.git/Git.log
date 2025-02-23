@@ -1,0 +1,96 @@
+2025-01-30 05:00:48.224 [info] [main] Log level: Info
+2025-01-30 05:00:48.224 [info] [main] Validating found git in: "git"
+2025-01-30 05:00:48.224 [info] [main] Using git "2.43.0" from "git"
+2025-01-30 05:00:48.224 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 05:00:48.224 [info] > git rev-parse --show-toplevel [31ms]
+2025-01-30 05:00:48.224 [info] > git rev-parse --git-dir --git-common-dir [1669ms]
+2025-01-30 05:00:48.224 [info] [Model][openRepository] Opened repository: /home/jerushastewa2022
+2025-01-30 05:00:48.276 [info] > git config --get commit.template [6038ms]
+2025-01-30 05:00:48.576 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:00:48.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2025-01-30 05:00:48.611 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:00:48.632 [info] > git rev-parse --show-toplevel [65ms]
+2025-01-30 05:00:48.667 [info] > git status -z -uall [48ms]
+2025-01-30 05:00:48.675 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [44ms]
+2025-01-30 05:00:48.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-01-30 05:00:48.759 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:00:48.760 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-01-30 05:00:48.761 [info] > git rev-parse --show-toplevel [113ms]
+2025-01-30 05:00:48.797 [info] > git check-ignore -v -z --stdin [24ms]
+2025-01-30 05:00:48.799 [info] > git config --get commit.template [42ms]
+2025-01-30 05:00:49.080 [info] > git rev-parse --show-toplevel [284ms]
+2025-01-30 05:00:49.142 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:00:49.180 [info] > git rev-parse --show-toplevel [29ms]
+2025-01-30 05:00:49.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2025-01-30 05:00:49.181 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:00:49.256 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [55ms]
+2025-01-30 05:00:49.264 [info] > git status -z -uall [73ms]
+2025-01-30 05:00:49.297 [info] > git rev-parse --show-toplevel [62ms]
+2025-01-30 05:00:49.756 [info] > git rev-parse --show-toplevel [40ms]
+2025-01-30 05:00:49.783 [info] > git rev-parse --show-toplevel [16ms]
+2025-01-30 05:00:49.859 [info] > git rev-parse --show-toplevel [63ms]
+2025-01-30 05:00:49.860 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 05:00:49.898 [info] > git show --textconv :Procfile [26ms]
+2025-01-30 05:00:49.909 [info] > git ls-files --stage -- /home/jerushastewa2022/Procfile [22ms]
+2025-01-30 05:00:51.744 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [55ms]
+2025-01-30 05:00:51.744 [info] fatal: bad revision 'refs/heads/main'
+2025-01-30 05:00:51.745 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-01-30 05:00:52.221 [info] > git check-ignore -v -z --stdin [5ms]
+2025-01-30 05:00:55.279 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-30 05:00:56.621 [info] > git -c user.useConfigOnly=true commit --quiet [32ms]
+2025-01-30 05:00:56.621 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-01-30 05:00:56.631 [info] > git config --get-all user.name [3ms]
+2025-01-30 05:00:56.647 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:00:56.649 [info] > git config --get commit.template [10ms]
+2025-01-30 05:00:56.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:00:56.650 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:00:56.671 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:00:56.679 [info] > git status -z -uall [22ms]
+2025-01-30 05:00:58.141 [info] > git ls-files --stage -- /home/jerushastewa2022/Procfile [2ms]
+2025-01-30 05:00:58.194 [info] > git show --textconv :Procfile [2ms]
+2025-01-30 05:01:03.869 [info] > git -c user.useConfigOnly=true commit --quiet [33ms]
+2025-01-30 05:01:03.869 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-01-30 05:01:03.879 [info] > git config --get-all user.name [2ms]
+2025-01-30 05:01:03.894 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:01:03.895 [info] > git config --get commit.template [9ms]
+2025-01-30 05:01:03.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 05:01:03.896 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:01:03.915 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:01:03.922 [info] > git status -z -uall [20ms]
+2025-01-30 05:03:40.101 [info] > git config --get commit.template [3ms]
+2025-01-30 05:03:40.134 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 05:03:40.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-01-30 05:03:40.135 [warning] [Git][getBranch] No such branch: main
+2025-01-30 05:03:40.159 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-30 05:03:40.172 [info] > git status -z -uall [28ms]
+2025-01-30 05:03:41.238 [info] > git ls-files --stage -- /home/jerushastewa2022/Procfile [3ms]
+2025-01-30 05:03:41.296 [info] > git show --textconv :Procfile [2ms]

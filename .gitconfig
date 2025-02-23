@@ -1,0 +1,7 @@
+[http]
+	cookiefile = %USERPROFILE%\\.gitcookies
+[user]
+	name = JerushaStewart
+	email = jerushastewa2022@fau.edu
+[pull]
+	rebase = true

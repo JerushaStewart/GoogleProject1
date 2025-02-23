@@ -1,0 +1,35 @@
+2025-01-30 03:53:53.236 [info] [main] Log level: Info
+2025-01-30 03:53:53.236 [info] [main] Validating found git in: "git"
+2025-01-30 03:53:53.236 [info] [main] Using git "2.43.0" from "git"
+2025-01-30 03:53:53.236 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 03:53:53.236 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-30 03:53:53.237 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-01-30 03:53:53.249 [info] [Model][openRepository] Opened repository: /home/jerushastewa2022
+2025-01-30 03:53:53.267 [info] > git config --get commit.template [11ms]
+2025-01-30 03:53:53.268 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 03:53:53.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-30 03:53:53.269 [warning] [Git][getBranch] No such branch: main
+2025-01-30 03:53:53.281 [info] > git rev-parse --show-toplevel [20ms]
+2025-01-30 03:53:53.545 [info] > git status -z -uall [271ms]
+2025-01-30 03:53:53.546 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [264ms]
+2025-01-30 03:53:53.868 [info] > git rev-parse --show-toplevel [578ms]
+2025-01-30 03:53:58.373 [info] > git check-ignore -v -z --stdin [4488ms]
+2025-01-30 03:53:58.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4523ms]
+2025-01-30 03:53:58.380 [warning] [Git][getBranch] No such branch: main
+2025-01-30 03:53:58.381 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-01-30 03:53:58.440 [info] > git rev-parse --show-toplevel [69ms]
+2025-01-30 03:53:58.446 [info] > git config --get commit.template [100ms]
+2025-01-30 03:53:58.534 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 03:53:58.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [85ms]
+2025-01-30 03:53:58.619 [warning] [Git][getBranch] No such branch: main
+2025-01-30 03:53:58.636 [info] > git rev-parse --show-toplevel [123ms]
+2025-01-30 03:53:58.814 [info] > git status -z -uall [187ms]
+2025-01-30 03:53:58.814 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [179ms]
+2025-01-30 03:53:58.890 [info] > git rev-parse --show-toplevel [208ms]
+2025-01-30 03:53:59.346 [info] > git rev-parse --show-toplevel [418ms]
+2025-01-30 03:53:59.425 [info] > git rev-parse --show-toplevel [56ms]
+2025-01-30 03:53:59.548 [info] > git rev-parse --show-toplevel [23ms]
+2025-01-30 03:53:59.549 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 03:53:59.688 [info] > git show --textconv :main.py [124ms]
+2025-01-30 03:53:59.693 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [120ms]
+2025-01-30 03:53:59.734 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [21ms]

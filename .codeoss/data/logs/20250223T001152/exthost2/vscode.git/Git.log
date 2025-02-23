@@ -1,0 +1,45 @@
+2025-02-23 01:13:37.994 [info] [main] Log level: Info
+2025-02-23 01:13:37.994 [info] [main] Validating found git in: "git"
+2025-02-23 01:13:37.994 [info] [main] Using git "2.43.0" from "git"
+2025-02-23 01:13:37.994 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-23 01:13:37.994 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 01:13:37.994 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-23 01:13:37.994 [info] [Model][openRepository] Opened repository: /home/jerushastewa2022
+2025-02-23 01:13:37.994 [info] > git config --get commit.template [4ms]
+2025-02-23 01:13:37.994 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 01:13:37.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-23 01:13:37.994 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-23 01:13:37.994 [info] > git status -z -uall [268ms]
+2025-02-23 01:13:37.994 [info] > git rev-parse --show-toplevel [273ms]
+2025-02-23 01:13:37.994 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [315ms]
+2025-02-23 01:13:37.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1896ms]
+2025-02-23 01:13:37.994 [info] > git rev-parse --show-toplevel [1994ms]
+2025-02-23 01:13:37.994 [info] > git check-ignore -v -z --stdin [119ms]
+2025-02-23 01:13:37.994 [info] > git config --local branch.main.vscode-merge-base [453ms]
+2025-02-23 01:13:37.994 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-23 01:13:37.994 [info] > git config --get commit.template [481ms]
+2025-02-23 01:13:37.994 [info] > git reflog main --grep-reflog=branch: Created from *. [13ms]
+2025-02-23 01:13:37.994 [info] > git rev-parse --show-toplevel [32ms]
+2025-02-23 01:13:37.994 [info] > git rev-parse --show-toplevel [2047ms]
+2025-02-23 01:13:37.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2054ms]
+2025-02-23 01:13:37.994 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2064ms]
+2025-02-23 01:13:37.994 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-23 01:13:37.994 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-23 01:13:38.171 [info] > git merge-base refs/heads/main refs/remotes/GoogleProject1/main [192ms]
+2025-02-23 01:13:38.240 [info] > git rev-parse --show-toplevel [238ms]
+2025-02-23 01:13:38.288 [info] > git diff --name-status -z --diff-filter=ADMR 84211f4cc8cf7eea33180238631f6ff32a16adc1...refs/remotes/GoogleProject1/main [110ms]
+2025-02-23 01:13:38.594 [info] > git rev-parse --show-toplevel [332ms]
+2025-02-23 01:13:38.630 [info] > git status -z -uall [288ms]
+2025-02-23 01:13:38.630 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [274ms]
+2025-02-23 01:13:38.663 [info] > git rev-parse --show-toplevel [49ms]
+2025-02-23 01:13:38.707 [info] > git rev-parse --show-toplevel [27ms]
+2025-02-23 01:13:39.317 [info] > git rev-parse --show-toplevel [563ms]
+2025-02-23 01:13:39.345 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-23 01:13:39.346 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-23 01:13:39.428 [info] > git show --textconv :main.py [59ms]
+2025-02-23 01:13:39.533 [info] > git ls-files --stage -- /home/jerushastewa2022/main.py [147ms]
+2025-02-23 01:13:39.630 [info] > git cat-file -s 99b05d5953ffe4efe81079fe06b52bf1d2f60311 [81ms]
+2025-02-23 01:14:19.126 [info] > git config --get commit.template [12ms]
+2025-02-23 01:14:19.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-23 01:14:19.152 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-23 01:14:19.165 [info] > git status -z -uall [27ms]

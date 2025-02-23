@@ -1,0 +1,11 @@
+2025-02-22 22:00:13.405 [warning] Dir "/home/jerushastewa2022/.pixi/envs" is not watchable (directory does not exist)
+2025-02-22 22:00:13.505 [info] Python interpreter path: /bin/python
+2025-02-22 22:00:13.921 [info] > pyenv which python
+2025-02-22 22:00:13.921 [info] cwd: .
+2025-02-22 22:00:19.259 [info] Starting Jedi language server for jerushastewa2022.
+2025-02-22 22:01:54.357 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-22 22:02:10.424 [info] Send text to terminal: /bin/python /home/jerushastewa2022/main.py
+2025-02-22 22:03:14.407 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-22 22:03:16.954 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-22 22:03:20.021 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-22 22:03:27.295 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
