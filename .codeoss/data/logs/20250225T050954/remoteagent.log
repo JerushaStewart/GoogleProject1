@@ -1,0 +1,20 @@
+2025-02-25 05:09:54.988 [info] 
+
+
+
+
+2025-02-25 05:09:55.002 [info] Extension host agent started.
+2025-02-25 05:09:56.930 [info] [127.0.0.1][7f362832][ManagementConnection] New connection established.
+2025-02-25 05:09:56.939 [info] [127.0.0.1][fec40e76][ExtensionHostConnection] New connection established.
+2025-02-25 05:09:57.972 [info] [127.0.0.1][fec40e76][ExtensionHostConnection] <1203> Launched Extension Host Process.
+2025-02-25 05:11:48.543 [info] [127.0.0.1][fec40e76][ExtensionHostConnection] The client has reconnected.
+2025-02-25 05:11:48.673 [info] [127.0.0.1][7f362832][ManagementConnection] The client has reconnected.
+2025-02-25 05:12:35.445 [info] [127.0.0.1][7f362832][ManagementConnection] The client has reconnected.
+2025-02-25 05:12:37.441 [info] [127.0.0.1][fec40e76][ExtensionHostConnection] The client has reconnected.
+2025-02-25 05:14:38.828 [info] [127.0.0.1][fec40e76][ExtensionHostConnection] The client has reconnected.
+2025-02-25 05:14:38.972 [info] [127.0.0.1][7f362832][ManagementConnection] The client has reconnected.
+2025-02-25 05:16:12.715 [info] [127.0.0.1][7f362832][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-02-25 05:25:55.730 [info] [127.0.0.1][7f362832][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-02-25 05:25:55.731 [info] [127.0.0.1][7f362832][ManagementConnection] The client has reconnected.
+2025-02-25 05:25:55.876 [info] [127.0.0.1][fec40e76][ExtensionHostConnection] The client has reconnected.
+2025-02-25 05:30:23.512 [info] [127.0.0.1][7f362832][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

@@ -17,3 +17,8 @@
 2025-02-23 01:24:28.298 [info] [127.0.0.1][0dca5451][ExtensionHostConnection] New connection established.
 2025-02-23 01:24:28.306 [info] [127.0.0.1][0dca5451][ExtensionHostConnection] <10447> Launched Extension Host Process.
 2025-02-23 01:29:28.675 [info] [127.0.0.1][981e5a07][ExtensionHostConnection] <8372> Extension Host Process exited with code: 0, signal: null.
+2025-02-23 01:34:18.952 [info] [127.0.0.1][0dca5451][ExtensionHostConnection] The client has reconnected.
+2025-02-23 01:34:19.077 [info] [127.0.0.1][bc58d26d][ManagementConnection] The client has reconnected.
+2025-02-23 01:38:46.376 [info] [127.0.0.1][bc58d26d][ManagementConnection] The client has reconnected.
+2025-02-23 01:38:46.521 [info] [127.0.0.1][0dca5451][ExtensionHostConnection] The client has reconnected.
+2025-02-23 01:40:17.454 [info] [127.0.0.1][bc58d26d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

@@ -1,0 +1,43 @@
+2025-02-25 06:04:35.196 [warning] Dir "/home/jerushastewa2022/.pixi/envs" is not watchable (directory does not exist)
+2025-02-25 06:04:35.197 [info] Python interpreter path: /bin/python
+2025-02-25 06:04:37.307 [info] > pyenv which python
+2025-02-25 06:04:37.308 [info] cwd: .
+2025-02-25 06:04:39.140 [info] Starting Jedi language server for jerushastewa2022.
+2025-02-25 06:15:23.106 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:15:42.053 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:19:15.812 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:19:42.132 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:19:52.709 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:20:01.082 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:21:39.920 [info] Send text to terminal: /bin/python /home/jerushastewa2022/main.py
+2025-02-25 06:25:37.691 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:33:31.419 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:34:47.281 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:35:13.994 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:46:28.823 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:46:51.781 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:47:19.194 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:49:02.548 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:49:21.122 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:49:53.451 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:51:17.201 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:52:34.740 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:53:06.585 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:53:12.063 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:53:59.787 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:54:03.740 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:54:05.875 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:54:37.785 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:54:40.985 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:54:47.254 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:54:53.426 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:54:56.883 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:55:04.144 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:55:08.531 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:56:35.179 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:57:04.161 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:57:17.305 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:57:21.317 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:57:27.020 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 06:57:29.305 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py
+2025-02-25 07:03:02.835 [info] Discover tests for workspace name: jerushastewa2022 - uri: /home/jerushastewa2022/main.py

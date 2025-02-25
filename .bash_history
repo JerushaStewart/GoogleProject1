@@ -47,3 +47,8 @@ git add
 git commit -a
 rm -f .git/index.lock
 git add
+git add .
+git commit -m "2/22/2025"
+git push
+/bin/python /home/jerushastewa2022/main.py
+git add
