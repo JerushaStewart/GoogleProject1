@@ -5,7 +5,7 @@ from google.cloud import storage
 
 os.makedirs('files', exist_ok = True)
 app = Flask(__name__)
-BUCKET_NAME = "imageproject1bucket"
+BUCKET_NAME = "project2bucketapi"
 storage_client = storage.Client()
 
 
